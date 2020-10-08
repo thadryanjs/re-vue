@@ -1,0 +1,10 @@
+####{BSB GENERATED: NO EDIT
+B lib/bs
+FLG -open ReasonInVue
+FLG -ppx '/home/thadryan/Workspace/re-vue/node_modules/bs-platform/linux/bsc.exe -as-ppx '
+S /home/thadryan/Workspace/re-vue/node_modules/bs-platform/lib/ocaml
+B /home/thadryan/Workspace/re-vue/node_modules/bs-platform/lib/ocaml
+FLG -w +a-4-9-20-40-41-42-50-61-102
+S src/reason
+B lib/bs/src/reason
+####BSB GENERATED: NO EDIT}

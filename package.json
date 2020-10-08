@@ -3,12 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "serve": "bsb -make-world && vue-cli-service serve",
+    "build": "bsb -make-world && vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "nuxt": "^2.14.6",
     "vue": "^2.6.11"
   },
   "devDependencies": {
@@ -16,8 +17,10 @@
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "babel-eslint": "^10.1.0",
+    "bs-platform": "^8.2.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
+    "gentype": "^3.36.0",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
