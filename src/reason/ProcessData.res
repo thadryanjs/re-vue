@@ -1,9 +1,9 @@
-// a pipeline to work on the data with compile-time checks
+/* a pipeline to work on the data with compile-time checks */
 let pipelineResults = {
 
   // parameters of some dataprocessing pipeline
   let param1 = 1;
-  // let param1 = "1"; <--- type error and compile time!!! =)
+  // let param1 = "1"; <--- type error and compile time!!! :)
   let param2 = 99;
 
   // define the steps of the pipeline
