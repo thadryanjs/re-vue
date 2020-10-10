@@ -6,14 +6,13 @@
 </template>
 
 <script>
-import { pipelineResults } from "../ReScript/ProcessData.bs.js";
-// import { loadData } from "../reason/ProcessData.bs.js";
+import { pipelineResults } from "../rescript/DataComponent/ProcessData.bs.js";
 
 export default {
   name: 'DataComponent',
   data() {
     return {
-      /* change parameters in ProcessData.res for compile time checks */
+      /* change parameters in ProcessData.re for compile time checks */
 
       // return the results value from compile-time checked code
       results: pipelineResults

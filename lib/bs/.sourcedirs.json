@@ -1,1 +1,1 @@
-{ "dirs" : [ "src/ReScript" ] , "pkgs" : [ [ "gentype" , "/home/thadryan/Workspace/re-vue/node_modules/gentype" ] , [ "bs-platform" , "/home/thadryan/Workspace/re-vue/node_modules/bs-platform" ] ] , "generated" : [] }
+{ "dirs" : [ "src/ReScript" , "src/ReScript/DataComponent" , "src/ReScript/D3Component" ] , "pkgs" : [ [ "gentype" , "/home/thadryan/Workspace/re-vue/node_modules/gentype" ] , [ "bs-platform" , "/home/thadryan/Workspace/re-vue/node_modules/bs-platform" ] ] , "generated" : [] }
