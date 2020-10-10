@@ -2,7 +2,7 @@
   "name": "reason-in-vue",
   "sources": [
     {
-      "dir": "src/reason",
+      "dir": "src/ReScript",
       "subdirs": true
     }
   ],

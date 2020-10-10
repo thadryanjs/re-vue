@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import { pipelineResults } from "../reason/ProcessData.bs.js";
+import { pipelineResults } from "../ReScript/ProcessData.bs.js";
 // import { loadData } from "../reason/ProcessData.bs.js";
 
 export default {
