@@ -3,8 +3,8 @@ let pipelineResults = {
 
   // parameters of some dataprocessing pipeline
   let param1 = 1;
-  // let param1 = "1"; <--- type error and compile time!!! :)
   let param2 = 99;
+  // let param1 = "1"; <--- type error and compile time!!! :)
 
   // define the steps of the pipeline
   let stepOne = (a:int, b:int): int => a + b;
@@ -17,11 +17,15 @@ let pipelineResults = {
     -> stepThree
 }
 
+
+
 // hacky I think, bit will satistfy vue if you need a function
 // instead of a value to be returned
+
 // let loadData = (None) => pipelineResults
 
 // this version produces a "param" that is never used and makes Vue mad
+
 // let loadData = () => {
 //   pipelineResults
 // }
