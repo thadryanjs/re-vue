@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "bsb -make-world && vue-cli-service serve",
+    "hot-rescript": "bsb -make-world -w",
     "build": "bsb -make-world && vue-cli-service build",
     "lint": "vue-cli-service lint"
   },

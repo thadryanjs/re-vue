@@ -1,17 +1,17 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <ReasonComponent/>
+    <DataComponent/>
   </div>
 </template>
 
 <script>
-import ReasonComponent from './components/ReasonComponent.vue'
+import DataComponent from './components/DataComponent.vue'
 
 export default {
   name: 'App',
   components: {
-    ReasonComponent
+    DataComponent
   },
 }
 </script>
