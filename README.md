@@ -10,6 +10,11 @@ npm install
 npm run serve
 ```
 
+### Compiles all ReScript files on save (press ctl-c to move on to server when ready)
+```
+npm run hot-rescript
+```
+
 ### Compiles and minifies for production
 ```
 npm run build
