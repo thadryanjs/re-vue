@@ -5,6 +5,6 @@ FLG -ppx '/home/thadryan/Workspace/re-vue/node_modules/bs-platform/linux/bsc.exe
 S /home/thadryan/Workspace/re-vue/node_modules/bs-platform/lib/ocaml
 B /home/thadryan/Workspace/re-vue/node_modules/bs-platform/lib/ocaml
 FLG -w +a-4-9-20-40-41-42-50-61-102
-S src/ReScript/DataComponent
-B lib/bs/src/ReScript/DataComponent
+S src/rescript/DataComponent
+B lib/bs/src/rescript/DataComponent
 ####BSB GENERATED: NO EDIT}
